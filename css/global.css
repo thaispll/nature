@@ -1,0 +1,88 @@
+body{
+    background-color: #c6d3da;
+    display: flex; /*Podemos manipular todos os elementos filhos desse flex container com propriedades novas*/
+    justify-content: center; /* define como o navegador distribui o espaço entre os itens e ao redor deles */
+
+}
+
+.container-principal {
+    background-color: #fff;
+    width: 90%;
+    height: 100vh; /*100% do valor da altura */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5% 20px 5%; /*cima direita embaixo esquerda*/
+
+}
+
+.menu-left{
+    
+    width: fit-content;
+
+}
+.menu-center {
+    width: 60%;
+    display:flex;
+    flex-direction: row; /*flex em linha - direção do flexbox*/
+    justify-content: space-evenly; /*space-evenly: distribui o espaço entre os itens de forma igual*/
+    align-items: flex-start;
+}
+
+.menu-right {
+    text-align: center;
+}
+.container-content{
+    display:flex;
+    margin: 0 5% 0 5%;
+}
+
+.information{
+    width: 55%;
+    height: 80vh;
+    padding: 0 5% 0 5%;
+}
+
+.information h1, h5 {
+    font-family: "AndoSemibold";
+}
+
+.information h1 {
+    font-size: 140px;
+    color:brown;
+    font-stretch: wider;
+
+}
+
+.information h5{
+    font-size: 40px;
+
+}
+
+.photo {
+    width: 45%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    height: 100%;
+
+}
+
+.button-set{
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-set button {
+    margin: 0 20px 0 20px;
+}
+
+
